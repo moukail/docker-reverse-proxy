@@ -15,6 +15,12 @@ Then add your local domains
 
 .local prefix is very important
 
+### Make a copy of Caddyfile
+
+````
+cp Caddyfile.example Caddyfile
+````
+
 ### Add your local domain in Caddyfile
 
 ```
