@@ -3,6 +3,9 @@ In linux
 ```
 sudo nano /etc/hosts
 ```
+
+In Windows go to C:/system32/drivers/hosts
+
 Then add your local domains
 ````
 127.0.0.1   localhost
