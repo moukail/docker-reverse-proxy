@@ -44,3 +44,11 @@ networks:
     name: logitrade
     external: true
 ````
+
+start your project
+
+```
+docker compose up --build
+```
+
+Now you don't have to use a port in your browser just your local domain
