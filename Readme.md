@@ -22,7 +22,7 @@ Then add your local domains
 ```
 ### Start de reverse proxy
 ```
-docker compose up
+docker compose up -d
 ```
 
 ### In Your Project
