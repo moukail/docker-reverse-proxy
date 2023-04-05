@@ -15,7 +15,7 @@ Then add your local domains
 
 .local prefix is very important
 
-### Make a copy of Caddyfile
+### Make a local copy of Caddyfile
 
 ````
 cp Caddyfile.example Caddyfile
