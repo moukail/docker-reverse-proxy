@@ -4,7 +4,7 @@ In linux
 sudo nano /etc/hosts
 ```
 
-In Windows go to C:/system32/drivers/hosts
+In Windows go to C:/system32/drivers/hosts and open it with notepad++
 
 Then add your local domains
 ````
