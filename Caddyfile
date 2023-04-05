@@ -1,0 +1,6 @@
+teesing-frontend.dev:80 {
+  reverse_proxy teesing-nginx:3000
+}
+teesing-backend.dev:80 {
+  reverse_proxy teesing-nginx:3001
+}

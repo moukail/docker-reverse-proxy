@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  proxy:
+    image: caddy:alpine
+    container_name: caddy
+    restart: unless-stopped
+    # Map the app container exposed port to the host port.
+    ports:
+      - 80:80
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+
+networks:
+  default:
+    name: logitrade
