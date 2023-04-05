@@ -13,7 +13,7 @@ Then add your local domains
 127.0.0.1   teesing-backend.dev.local
 ````
 
-.local prefix is very important
+.local suffix is very important
 
 ### Make a local copy of Caddyfile
 
