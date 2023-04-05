@@ -9,9 +9,11 @@ In Windows go to C:/system32/drivers/hosts and open it with notepad++
 Then add your local domains
 ````
 127.0.0.1   localhost
-127.0.0.1   teesing-frontend.dev
-127.0.0.1   teesing-backend.dev
+127.0.0.1   teesing-frontend.dev.local
+127.0.0.1   teesing-backend.dev.local
 ````
+
+.local prefix is very important
 
 ### Add your local domain in Caddyfile
 
