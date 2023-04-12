@@ -1,14 +1,17 @@
 version: '3.9'
 services:
   proxy:
-    image: caddy:alpine
-    container_name: caddy
+    #image: caddy:alpine
+    image: nginx:1.23-alpine
+    container_name: reverse_proxy
     restart: unless-stopped
     # Map the app container exposed port to the host port.
     ports:
       - 80:80
+      - 3306:3306
     volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
+      #- ./Caddyfile:/etc/caddy/Caddyfile
+      - ./nginx.conf:/etc/nginx/nginx.conf
 
 networks:
   default:

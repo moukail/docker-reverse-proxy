@@ -4,3 +4,6 @@ teesing-frontend.dev.local:80 {
 teesing-backend.dev.local:80 {
   reverse_proxy teesing-nginx:3001
 }
+teesing-database.dev.local:3306 {
+  reverse_proxy teesing-nginx:3306
+}
