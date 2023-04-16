@@ -1,19 +1,14 @@
 version: '3.9'
 services:
   proxy:
-    #image: caddy:alpine
-    image: nginx:1.23-alpine
+    image: caddy:2.6-alpine
     container_name: reverse_proxy
     restart: unless-stopped
-    # Map the app container exposed port to the host port.
     ports:
       - 80:80
-      - 3306:3306 # teesing database
-      - 3106:3106 # other database
     volumes:
-      #- ./Caddyfile:/etc/caddy/Caddyfile
-      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./Caddyfile:/etc/caddy/Caddyfile
 
 networks:
   default:
-    name: logitrade
+    name: moukail
