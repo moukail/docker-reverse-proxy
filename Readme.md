@@ -1,5 +1,5 @@
 ### Add local domain names in hosts file
-In linux
+In linux and MacOS
 ```
 sudo nano /etc/hosts
 ```
